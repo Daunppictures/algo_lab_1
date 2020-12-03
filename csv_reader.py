@@ -2,7 +2,7 @@ from pool import Pool
 import csv
 
 
-def read_cvs_file(file_name):
+def read_csv_file(file_name):
     pools = []
     with open(file_name, 'r')  as file:
         reader = csv.reader(file)

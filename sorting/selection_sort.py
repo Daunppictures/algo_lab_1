@@ -12,8 +12,7 @@ def selection_sort(pools):
             sort_counter.selection_comp_counter += 1
 
 
-        if max_capacity_index != iterator:
-            pools[max_capacity_index], pools[iterator] = pools[iterator], pools[max_capacity_index]
+        pools[max_capacity_index], pools[iterator] = pools[iterator], pools[max_capacity_index]
         sort_counter.selection_swap_counter += 1
 
 
