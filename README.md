@@ -12,7 +12,7 @@
 ### 1. Clone this repository:
 
 ```
-git clone https://github.com/Daunppictures/algo_lab_1.git
+git clone https://github.com/solodovnykov/algo_lab_1.git
 ```
 
 ### 2. Open algo_lab_1 directory:
